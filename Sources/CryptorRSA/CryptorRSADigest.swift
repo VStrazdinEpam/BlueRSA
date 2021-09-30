@@ -239,7 +239,7 @@ extension Data {
 					return .rsaEncryptionOAEPSHA512
                     
                 case .gcm:
-                    return .rsaEncryptionOAEPSHA1
+                    return .rsaEncryptionOAEPSHA1AESGCM
 				
 			}
 		}
